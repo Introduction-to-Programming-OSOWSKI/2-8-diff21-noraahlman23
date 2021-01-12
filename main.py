@@ -1,5 +1,5 @@
 def diff21(n):
-    if abs (n-21) < 21:
+    if n < 21:
         return abs (n-21)
     elif n > 21:
         return (abs (n-21)) * 2
